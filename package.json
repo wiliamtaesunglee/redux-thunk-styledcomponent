@@ -1,0 +1,69 @@
+{
+  "name": "webmotors-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "exact": "^0.8.0",
+    "prop-types": "15.7.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-redux": "7.2.0",
+    "react-router-dom": "5.1.2",
+    "react-scripts": "3.4.1",
+    "redux": "4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "5.1.0"
+  },
+  "scripts": {
+    "start": "rescripts start",
+    "build": "rescripts build",
+    "test": "rescripts test",
+    "lint:fix": "standard --fix | snazzy"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "standard",
+      "standard-react"
+    ]
+  },
+  "rescripts": [
+    "env"
+  ],
+  "standard": {
+    "pareser": "babel-eslint",
+    "globals": [
+      "fetch"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@rescripts/cli": "0.0.14",
+    "@rescripts/rescript-env": "0.0.12",
+    "babel-eslint": "10.1.0",
+    "eslint-config-standard": "14.1.1",
+    "eslint-config-standard-react": "9.2.0",
+    "eslint-plugin-import": "2.20.2",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-react": "7.19.0",
+    "eslint-plugin-standard": "4.0.1",
+    "snazzy": "8.0.0",
+    "standard": "14.3.3"
+  }
+}
